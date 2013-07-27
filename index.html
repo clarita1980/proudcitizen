@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Proud Citizen | About</title>
+
+  <!-- Make IE8 and below responsive by adding CSS3 MediaQuery support -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/excanvas/excanvas.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/spinners/spinners.min.js"></script>
+  <script type="text/javascript" src="js/lightview/lightview.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/lightview/lightview.css"/>
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/custom.modernizr.js"></script>
+  <link rel="stylesheet" href="css/general_foundicons.css">
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/general_foundicons_ie7.css">
+  <![endif]-->
+  <script type="text/javascript">
+    (function() {
+      var config = {
+        kitId: 'bje5odp',
+        scriptTimeout: 3000
+      };
+      var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+    })();
+  </script>
+  <script type="text/javascript" src="js/vendor/jwplayer.js"></script>
+  <link rel="stylesheet" href="css/claraslist.css" />
+</head>
+<body>
+  <div class="row">
+    <div class="large-10 columns header">
+      <img src="img/clara-avatar.png" class="avatar" align="left" />
+      <h2>ProudCitizen.org - The Interview Project</h2>
+      <h3>Building community through storytelling</small></h3>
+      <br /><br /><br />
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="panel panel-white">
+        <div class="row">
+          <div class="large-10 columns large-offset-1">
+
+            <blockquote style="font-size:120%; border-left: 0; padding: 0; color: #ff3000;">
+              “I like to see a man proud of the place in which he lives.<br/>
+              I like to see a man live so that his place will be proud of him.”
+              <br />
+              <span class="right">― <em>Abraham Lincoln</em></span>
+            </blockquote>
+
+            <br />
+            <br />
+            <br />
+
+            <div id="smallplayer" class="pdf-embed-container" style="margin: 0 auto; width: 260px;">
+              <div id="myplayer"></div>
+              <script type="text/javascript">
+                (function() {
+                  if( $(window).width() <= 480 ) {
+                    jwplayer("myplayer").setup({
+                      levels: [
+                        { file: 'videos/everyone.m4v', type: 'video/mov' },
+                      ],
+                      modes: [
+                        { type: 'html5' },
+                        { type: 'flash', src: 'js/vendor/jwplayer.flash.swf' }
+                      ],
+                      width: 240,
+                      height: 190
+                    });
+                  }
+                })();
+              </script>
+            </div>
+
+            <div id="largeplayer" class="pdf-embed-container" style="margin: 0 auto; width: 500px;">
+              <div id="myplayerlarge"></div>
+              <script type="text/javascript">
+                
+                (function() {
+                  if( $(window).width() >= 480 ) {
+                    jwplayer("myplayerlarge").setup({
+                      levels: [
+                        { file: 'videos/everyone.m4v', type: 'video/mov' },
+                      ],
+                      modes: [
+                        { type: 'html5' },
+                        { type: 'flash', src: 'js/vendor/jwplayer.flash.swf' }
+                      ],
+                      width: 480,
+                      height: 380
+                    });
+                  }
+                })();
+              </script>
+            </div>
+
+            <br />
+            <hr />
+            <br />
+
+            <h4>Voices</h4>
+            <hr />
+            <div class="row">
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70609971?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/adriana.jpg" /></a>
+                    <span>Adriana</span>
+                    
+                     <p>Mountain View, CA</p>
+                     City pride: quiet place, nice, clean, lots of parks, some diversity</p>
+                     Contribution: Don't do much to contribute
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608665?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/drew.jpg" /></a>
+                    <span>Drew</span>
+                     <p>San Francisco, CA </p>
+                     City pride: his job</p>
+                     Contribution: Need to think more...
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                  <a href="http://player.vimeo.com/video/70609697?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/krista.jpg" /></a>
+                    <span>Krista</span>
+                     <p>San Francisco, CA</p>
+                     City pride: Creative minds, freedom to express ideas, not being judged</p>
+                     Contribution: Listening to people's ideas
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70609645?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/rob.jpg" /></a>
+                    <span>Rob</span>
+                     <p>San José, CA</p>
+                     City pride: silicon Valley tech environment, farmland</p>
+                     Contribution: don't cause trouble, pay taxes, a bit with the tech world
+                    <p>
+                </p>
+              </div>
+              <hr />
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70609664?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/nick.jpg" /></a>
+                    <br/>
+                    <span>Nick</span>
+                    <p>Portland, OR</p>
+                    City pride: place full of community</p>
+                    Contribution: helping build the tech community
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608578?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/alex.jpg" /></a>
+                    <span>Alex</span>
+                    <p>New York, NY</p>
+                    City pride: a city that constantly vibrates</p>
+                    Contribution: vibrate with the city, working hard, collaborate in local sports
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70609626?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/tim.jpg" /></a>
+                    <span>Tim</span>
+                    <p>Mountain View, CA</p>
+                    City pride: heart of silicon Valley, brightest people</p>
+                    Contribution: being part of this workforce
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608751?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/jeremy.jpg" /></a>
+                    <span>Jeremy</span>
+                    <p>San Francisco, CA </p>
+                    City pride: openess and welcome to new ideas, different types of people</p>
+                    Contribution: being nice to people
+                    <p>
+                </p>
+              </div>
+              <hr />
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608604?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/anthony.jpg" /></a>
+                    <span>Anthony</span>
+                    <p>San Francisco</p>
+                    City pride: diversity, lay-back culture, startup movement</p>
+                    Contribution: look out for homeless people, less fortunate
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608733?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/garret.jpg" /></a>
+                    <span>Garret</span>
+                    <p>Northern California</p>
+                    City pride: clean water, small population, nature</p>
+                    Contribution: not stressing and telling people to have faith 
+                    <p>
+                </p>
+              </div>
+                <div class="large-3 columns">
+                 <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608638?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/christian.jpg" /></a>
+                    <span>Christian</span>
+                    <p>Oakland, Berkeley, CA</p>
+                    City pride: university in Berkeley</p>
+                    Contribution: bringing to Berkeley a new citize, a baby, that will pay taxes
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70609675?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/nazzim.jpg" /></a>
+                    <span>Nazzim</span>
+                    <p>Oakland, CA</p>
+                    City pride: parking on the street</p>
+                    Contribution: being good to people and recycling
+                    <p>
+                </p>
+              </div>
+              <hr />
+              <div class="large-3 columns">
+                 <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608651?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/dana.jpg" /></a>
+                    <span>Dana</span>
+                    <p>Grass Valley, CA</p>
+                    City pride: culture, artists, music, performers</p>
+                    Contribution: being earth conscious, cleaning the lake
+                    <p>
+                </p>
+              </div>
+              <div class="large-3 columns left">
+                <p class="project-thumb">
+                    <a href="http://player.vimeo.com/video/70608621?autoplay=1" class="lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 333, viewport: 'scale'"><img src="img/chase.jpg" /></a>
+                    <span>Chase</span>
+                    <p>Oakland, CA</p>
+                    City pride: natural landscape</p>
+                    Contribution: coming back after living abroad, being part of local community
+                    <p>
+                </p>
+            </div>
+
+
+          </div>
+
+          <br />
+          <hr />
+          <br/>
+          <h4 style=" color: #ff3000;">cit·i·zen</h4>
+          </br>
+          <h5 style=" color: #ff3000;">/ˈsitizən/</h5>
+          <br/>
+          Noun
+          <ol>
+            <li>A legally recognized subject or national of a state or commonwealth, either native or naturalized.</li>
+            <li><strong>An inhabitant of a particular town or city.</strong></li>
+          </ol>
+          <br />
+          <hr/>
+          <br/>  
+            <em>About this interview project</em>
+            <h1 style=" color: #ff3000;">Why ask citizens about pride?</h1>
+            <p>
+              <strong>I have vivid memories of the first time I visited San Francisco.</strong> I was fortunate to be in town just as the city began celebrating its world-famous Pride Celebration &amp; Parade. To me this event represented an energetic and engaging celebration of the city's individuals, community and civic environment. I was pleased to be able to experience San Francisco during one of its most civic moments.
+            </p>
+            <p>
+              <strong>I am from Buenos Aires, Argentina.</strong> In the cities and towns across my home country people also celebrate their towns, provinces, cities and neighborhoods with pride.
+            </p>
+            <p>
+              <strong>I have always been curious to learn where people come from</strong>, how they think and feel about their home, and how this changes their concept of identity and their personal behavior. This interest eventually led me to study Anthropology and participate in and lead many interesting projects.
+            </p>
+            <br/>
+            <h3>The Investigation</h3>
+            <p>
+              The goal of this particular project and investigation here on ProudCitizen.org is to <strong>find out if there is a reciprocal causation between civic pride and civic engagement.</strong>
+              I want to understand how ordinary citizens react to the question about pride in their locale and then see if there is a connection to the actions they take in daily life. My hypothesis is that there is a clear connection between people's pride in their home and the personal actions they take.
+            </p>
+            <p>
+              The second goal is personal. As a new citizen to the Bay Area, I also want to collect stories about what is important to citizens and what creates a unique sense of place here in California. <strong>I want to learn what it means to be an engaged citizen here in my new home.</strong>
+            </p>
+            <br/>
+            <h3>Story = Action</h3>
+            <p>
+              I am passionate about ordinary and extraordinary stories. Stories connect to our emotional and rational selves. Most importantly, <strong>stories inspire new behaviors.</strong> The desire to discover, explore, understand and promote cross-cultural stories and register those experiences is a growing part of my life. Community storytelling draws in more voices, creates connections and builds empathy by providing a human face to the complex challenges facing communities today.
+            </p>
+            <p>
+              <strong>I strongly believe that through listening to other's stories we participate in the community.</strong>
+            </p>
+            <p>
+              <strong>The benefits of storytelling are immense</strong>: increased engagement with community members; increased visibility; and exposure and connection with causes.
+            </p>
+        </div>
+
+
+
+      </div>
+      <hr />
+      <h6>Links</h6>
+      <p>
+        <img src="img/linkedin_16.png" style="vertical-align:text-top;" />&nbsp;&nbsp;<a href="http://www.linkedin.com/in/claragonzalezsueyro/en">Clara's Linkedin Profile</a>
+        <br />
+        <img src="img/icons/page_white_medal.png" style="vertical-align:text-top;" />&nbsp;&nbsp;<a href="clara_gonzalez_sueyro_resume.pdf">Clara's Resume</a>
+        <br />
+      </ul>
+      <hr />
+      <h6>Contact Clara</h6>
+      <p>
+        <img src="img/icons/email_edit.png" style="vertical-align:text-top;" />&nbsp;&nbsp;<a href="#">clarita1980 [at] gmail</a>
+      </p>
+    </div>
+  </div>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

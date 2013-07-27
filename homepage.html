@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+<title>Clara Gonzalez Sueyro</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Clara Gonzalez Sueyro">
+<meta charset="UTF-8">
+
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet" type="text/css">
+<link href="css/homepage.css" media="all" rel="stylesheet" type="text/css">
+<!--<script data-rocketoptimized="true" data-rocketsrc="/assets/application-f1fdba3a9340fdbc1ec24be10f8d4a54.js" type="text/rocketscript"></script> -->
+</head>
+
+<body>
+<div class="container"> 
+<header>
+<span class="first">
+Clara Gonzalez Sueyro — Researcher and anthropologist based in San Francisco. 
+</span>
+<br>
+<span class="second">
+Proud citizen is an interview project. 
+</span>
+<br>
+<span class="third">
+I asked citizens two questions about pride.
+</span>
+<br>
+<span class="fith">
+1. What makes them proud of their city? 
+</span>
+<br>
+<span class="six">
+2. What do they do to make their city be proud of them?
+</span>
+<br>
+<span class="fith">
+Their voices is the result. 
+</span>
+<br><br>
+<a href="landing.html" target="blank" class="link">Interviews</a>
+<span class="sep"> / </span>
+<a href="clara_gonzalez_sueyro_resume.pdf" target="blank" class="link">Resume</a>
+<span class="sep"> / </span>
+<a href="http://www.linkedin.com/in/claragonzalezsueyro/en" target="blank" class="link">Linkedin</a>
+</header>
+<a href="landing.html" class="circle">
+<span class="front"></span>
+<span class="back"></span>
+<!-- 
+</a>
+<footer>
+  <div class="quote" style="display: none;">
+    “I worked with Clara when she was an ABM at Unilever Hair Category as part of the Market Research Department. She is a trustworthy professional, with strong empathy with consumers, Clara´s drive and positive attitude made her a key member of the team.” 
+    <br />
+    <strong>Mema Montero Barre</strong>, Marketing Director for Latin-America: Sedal and Suave brands at Unilever.
+  </div>
+  <div class="quote" style="display: none;">
+    “Clara is a diligent, optimistic and vigilant leader. I was able to witness Clara work both hard and smart, with a focus on results. I saw her move the Chef Surfing team forward to deliver on their promise of creating something new and innovative.”
+    <br />
+    <strong>Sebastian Vidal</strong>, Assistant Director in Start-Up Chile.
+  </div>-->
+</footer>
+
+<script src='js/vendor/jquery.js'></script>
+
+<script>
+  $(document).ready(function() {
+    var divs = $('div.quote').hide();
+    var i = 0;
+    (function cycle() { 
+    divs.eq(i).fadeIn(400).delay(5000).fadeOut(400, cycle);
+    // increment i and reset to 0 when it equals divs.length
+    i = ++i % divs.length; 
+    })();
+  });
+</script>
+
+</body>
+</html>
